@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.leftLayout {
+  height: 100%;
+  width: 50%;
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 90px;
+  padding-right: 90px;
+  z-index: 1;
+}
+
+.rightLayout {
+  height: 100%;
+  width: 50%;
+  background-color: #ffffff;
+  padding-top: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.logoContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 700;
+  color: #1565d8;
+  margin-top: 10px;
+}
+
+.textContent {
+  font-size: 20px;
+  font-weight: 500;
+  color: #696f79;
+  margin-top: 20%;
+}
+
+.paragraphText {
+  font-size: 15px;
+  font-weight: 500;
+  color: #696f79;
+  margin-top: 0px;
+  text-align: left;
+  line-height: 38px;
+  font-style: italic;
+}
+
+.logoTextContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headerButtonsContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightTitle {
+  text-align: center;
+}
+
+.paragraphTextTitle {
+  text-align: center;
+  color: #8692a6;
+}
+
+.loginButton {
+  height: 65px;
+  width: 65px;
+  border-radius: 6px;
+  margin: 5px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #696f79;
+}
+
+.input {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 65px;
+  border: 1px solid #8692a6;
+  border-radius: 6px;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #8692a6;
+}
+
+.input::placeholder {
+  color: #8692a6;
+  font-size: 15px;
+}
+
+
+
+.loginButtonSubmit {
+  margin-top: 20px;
+  width: 100%;
+  height: 64px;
+  border: 0px;
+  border-radius: 6px;
+  background-color: #1565d8;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.form {
+  margin-top: 80px;
+}
+
+.paragraphRegisterText {
+  font-size: 15px;
+  font-weight: 500;
+  color: #696f79;
+  margin-top: 0px;
+  text-align: center;
+  line-height: 38px;
+  font-style: italic;
+}
+
+.spanText {
+  color: #1565d8;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
